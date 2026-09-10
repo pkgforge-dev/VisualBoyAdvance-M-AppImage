@@ -21,7 +21,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini libdecor-mini x265-mini
 
-echo "Building Visual Boy Advance - M..."
+echo "Building VisualBoyAdvance-M..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/visualboyadvance-m/visualboyadvance-m"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
