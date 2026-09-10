@@ -47,3 +47,4 @@ cmake -B build -S ./visualboyadvance-m \
       -DBUILD_TESTING=OFF
 cmake --build build -j$(nproc)
 cmake --install build
+mv -v build/visualboyadvance-m /usr/bin
