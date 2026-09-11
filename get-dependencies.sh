@@ -11,11 +11,10 @@ pacman -Syu --noconfirm \
     gettext        \
     libxss         \
     openal         \
-    qt6-base \
+    qt6-base       \
     sdl3           \
     sfml           \
     vulkan-headers \
-    wxwidgets-gtk3 \
     zip
 
 echo "Installing debloated packages..."
