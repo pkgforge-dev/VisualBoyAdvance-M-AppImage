@@ -12,6 +12,7 @@ export DESKTOP=/usr/share/applications/visualboyadvance-m-qt.desktop
 export STARTUPWMCLASS=visualboyadvance-m-qt
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
+export APPNAME=VisualBoyAdvance-M
 
 # Deploy dependencies
 quick-sharun /usr/bin/visualboyadvance-m-qt /usr/lib/libopenal.so*
