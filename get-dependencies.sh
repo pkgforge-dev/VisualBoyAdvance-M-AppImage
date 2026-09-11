@@ -35,6 +35,7 @@ cmake -B build -S ./visualboyadvance-m \
       -DCMAKE_INSTALL_SYSCONFDIR=/etc \
       -DCMAKE_SKIP_RPATH=TRUE \
       -DENABLE_QT=ON \
+      -DENABLE_WX=OFF \
       -DENABLE_FFMPEG=TRUE \
       -DBUILD_TESTING=OFF
 cmake --build build -j$(nproc)
