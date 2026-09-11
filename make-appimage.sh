@@ -7,14 +7,14 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/hicolor/scalable/apps/visualboyadvance-m.svg
+export ICON=https://raw.githubusercontent.com/visualboyadvance-m/visualboyadvance-m/2d66d614555cd9093014e6fc5a0514061f0d9e88/src/art/vbam256.svg
 export DESKTOP=/usr/share/applications/visualboyadvance-m-qt.desktop
-export STARTUPWMCLASS=visualboyadvance-m
+export STARTUPWMCLASS=visualboyadvance-m-qt
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/visualboyadvance-m /usr/lib/libopenal.so*
+quick-sharun /usr/bin/visualboyadvance-m-qt /usr/lib/libopenal.so*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
