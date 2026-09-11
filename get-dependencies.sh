@@ -11,6 +11,7 @@ pacman -Syu --noconfirm \
     gettext        \
     libxss         \
     openal         \
+    qt6-base \
     sdl3           \
     sfml           \
     vulkan-headers \
@@ -33,6 +34,7 @@ cmake -B build -S ./visualboyadvance-m \
       -DCMAKE_INSTALL_PREFIX=/usr \
       -DCMAKE_INSTALL_SYSCONFDIR=/etc \
       -DCMAKE_SKIP_RPATH=TRUE \
+      -DENABLE_QT=ON \
       -DENABLE_FFMPEG=TRUE \
       -DBUILD_TESTING=OFF
 cmake --build build -j$(nproc)
