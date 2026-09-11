@@ -8,8 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake          \
-    gettext        \
-    libxss         \
     openal         \
     qt6-base       \
     sdl3           \
