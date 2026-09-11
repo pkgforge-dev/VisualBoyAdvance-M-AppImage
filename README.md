@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/VisualBoyAdvance-M-AppImage)](https://github.com/pkgforge-dev/VisualBoyAdvance-M-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/visualboyadvance-m/visualboyadvance-m/refs/heads/master/src/wx/icons/sizes/scalable/apps/visualboyadvance-m.svg" width="128" />
+  <img src="https://raw.githubusercontent.com/visualboyadvance-m/visualboyadvance-m/2d66d614555cd9093014e6fc5a0514061f0d9e88/src/art/vbam256.svg" width="128" />
 </p>
 
 
