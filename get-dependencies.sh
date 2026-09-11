@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
     cmake          \
     openal         \
     qt6-base       \
+    qt6-tools      \
     sdl3           \
     sfml           \
     vulkan-headers \
